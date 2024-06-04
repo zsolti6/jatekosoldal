@@ -1,0 +1,170 @@
+body{
+        background-color: aqua;
+}
+
+h1{
+        color: navy;
+        font-size: 3rem;
+        text-align: center;
+}
+
+#kontener{
+        background-color: white;
+        border: 1px solid black;
+        width: 500px;
+        height: 500px;
+        margin: auto;
+        margin-top: 70px;
+        border-radius: 10px;
+}
+
+#tabla{
+        background-color: white;
+        width: 488px;
+        height: 488px;
+        margin: auto;
+        margin-top: 7px;
+}
+
+.tile, .amobatile{
+        background-color: lightgrey;
+        color: black;
+}
+
+#valaszto{
+        margin: auto;
+        background-color: white;
+        width: 165px;
+        height: 165px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-top: 20px;
+}
+
+.tile, .valasztoTile, .amobatile{
+        width: 50px;
+        height: 50px;
+        float: left;
+        text-align: center;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 2px;
+        font-size: 2rem;
+        font-family: Fantasy;
+        user-select: none;
+}
+
+.valasztoTile{
+        background-color: greenyellow;
+        color: blue;
+}
+
+#magyarazat{
+        border: 1px solid black;
+        float: left;
+        background-color: green;
+        border-radius: 10px;
+        width: 400px;
+        text-align: center;
+        bottom: 0px;
+        margin: 0px;
+        position: absolute;
+}
+
+p, p a{
+        color: white;
+}
+
+a:any-link, .pointer{
+        text-decoration: underline;
+        color: white;
+        cursor: pointer;
+}
+
+.helyes{
+        color:green;
+}
+
+.helytelen{
+        color: red;
+}
+
+#ellenoriz{
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-top: 10px;
+}
+
+#gombdiv{
+        margin-top: 10px;
+        width: 116px;
+        margin: auto;
+        align-items: center;
+}
+
+.kivalasztott{
+        background-color: green;
+}
+
+.foleiras{
+        font-size: 2.5rem;
+        text-align: center;
+        color: darkgreen;
+}
+
+#kepdiv{
+        margin: auto;
+        width: 400px;
+
+}
+
+#wikilink{
+        bottom: 0px;
+}
+
+#tartalom{
+        height:935px;
+}
+
+.amobatile{
+        width: 93px;
+        height: 93px;
+        float: left;
+        font-size: 3rem;
+        line-height: 87px;
+}
+
+#info{
+        text-align: center;
+        font-size: 2rem;
+        color: chocolate;
+}
+
+*{
+        user-select: none;
+}
+
+.piros{
+        color: red;
+}
+
+.kek{
+        color: blue;
+}
