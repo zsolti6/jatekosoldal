@@ -150,13 +150,15 @@ function sudokuSetup(){
         valasztoSetup();
 }
 
-let kovetkezik;
+let kovetkezik = "x";
 let amobaTabla = [];
 let lepesek = 0;
+let vege = false;
 
 function amobaSetup(){
         kovetkezik = "x";
         amobaTabla = [];
+        vege = false;
         document.getElementById("tartalom").innerHTML = 
         `
         <h1>Amőba játék</h1>
@@ -183,7 +185,7 @@ function amobaSetup(){
 }
 
 function handleTileClick(e){
-        if(e.target.innerText != ""){
+        if(e.target.innerText != "" || vege){
                 return;
         }
         e.target.innerText = kovetkezik;
@@ -195,6 +197,9 @@ function handleTileClick(e){
         }
         if(nyert()){
                 document.getElementById("info").innerHTML = `${kovetkezik} nyert!`;
+                vege = true;
+        }else{
+                document.getElementById("info").innerHTML = `${kovetkezik} következik`;
         }
         kovetkezik = kovetkezik == "x" ? "o" : "x";
 }
